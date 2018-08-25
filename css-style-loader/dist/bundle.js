@@ -105,7 +105,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./esti
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./estilos.css */ \"./css-style-loader/estilos.css\");\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log('Mensaje desde Webpack arhivo config');\n\n\n//# sourceURL=webpack:///./css-style-loader/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./estilos.css */ \"./css-style-loader/estilos.css\");\n/* harmony import */ var _estilos_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_estilos_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\ndocument.write('Hola Mundo desde Webpack esto es una maravilla!');\nconsole.log('Mensaje desde Webpack arhivo config');\n\n\n//# sourceURL=webpack:///./css-style-loader/index.js?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _est
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\\nbody{\\nbackground:lightblue;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css-style-loader/estilos.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\\nbody{\\n\\tbackground:lightblue;\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\tjustify-content: center;\\n\\tmin-height: 100vh;\\n\\tmargin: 0;\\n\\tfont-size: 40px;\\n}\\n\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css-style-loader/estilos.css?./node_modules/css-loader");
 
 /***/ }),
 
