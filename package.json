@@ -8,7 +8,9 @@
     "bundle": "webpack index.js --output bundle.js --mode development",
     "build:local": "webpack",
     "build:external": "webpack --config ./externalWebPack/webpack.config.js",
-	  "build:css":"webpack --config ./css-style-loader/webpack.config.js"
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js"
+
   },
   "keywords": [
     "webpack"
@@ -17,6 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "1.0.0",
+    "mini-css-extract-plugin": "0.4.2",
     "style-loader": "0.22.1",
     "webpack": "4.17.1",
     "webpack-cli": "3.1.0"
