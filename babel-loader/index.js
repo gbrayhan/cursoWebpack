@@ -1,6 +1,8 @@
 import './estilos.css';
-import {firstMessage} from './message.js'
+import {messages} from './message.js';
 
 
-document.write(firstMessage);
+document.write(messages.firstMessage);
+messages.delayedMessage();
+
 console.log('Mensaje desde Webpack arhivo config');
