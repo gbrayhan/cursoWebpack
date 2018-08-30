@@ -5,7 +5,7 @@ const waitTime = new Promise((todoOk, todoMal) => {
 });
 
 
-var messages  = {
+module.exports  = {
 	firstMessage: "Hola mundo desde un modulo",
 	delayedMessage: async () => {
 		const message = await waitTime;
@@ -14,4 +14,4 @@ var messages  = {
 };
 
 
-export {messages};
+//export {messages};
