@@ -1,10 +1,8 @@
-import 'babel-polyfill'
-
 import './estilos.css';
-import {firstMessage, delayedMessage} from './message.js';
+import {messages} from './message.js';
 
 
-document.write(firstMessage);
-delayedMessage();
+document.write(messages.firstMessage);
+messages.delayedMessage();
 
 console.log('Mensaje desde Webpack arhivo config');
