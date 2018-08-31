@@ -1,4 +1,5 @@
 import {renderToDOM} from './render-to-dom.js';
+import {makeMessage} from './make-message.js';
 
 const waitTime = new Promise((todoOk, todoMal) => {
 	setTimeout(() => {
@@ -12,9 +13,8 @@ const messages = {
 	delayedMessage: async () => {
 		const message = await waitTime;
 		console.log(message);
-		const element = document.createElement ('p');
-		element.textContent = message;
-		renderToDOM(element);
+		
+		renderToDOM(makeMessage(message));
 	}
 };
 
