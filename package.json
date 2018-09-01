@@ -16,7 +16,8 @@
     "build:images": "webpack --config ./url-loader-images/webpack.config.js",
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./url-loader-video/webpack.config.js",
-    "build:json": "webpack --config ./json-loader/webpack.config.js"
+    "build:json": "webpack --config ./json-loader/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -27,11 +28,13 @@
     "@babel/core": "7.0.0",
     "@babel/plugin-transform-runtime": "7.0.0",
     "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "7.0.0",
     "babel-loader": "8.0.0",
     "babel-plugin-transform-runtime": "6.23.0",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "1.0.0",
     "file-loader": "^2.0.0",
     "mini-css-extract-plugin": "0.4.2",
@@ -41,5 +44,8 @@
     "webpack-cli": "3.1.0",
     "webpack-dev-server": "3.1.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
