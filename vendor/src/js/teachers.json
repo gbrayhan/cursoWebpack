@@ -1,0 +1,16 @@
+{
+	"teachers": [
+		{
+			"name":"Alejandro Guerrero",
+			"twitter": "Brayhan_7"
+		},
+		{
+			"name":"Alejandra Acosta",
+			"twitter": "aacosta"
+		},
+		{
+			"name":"Leonidas Esteban",
+			"twitter": "LeonidasEsteban"
+		}
+	]
+}
